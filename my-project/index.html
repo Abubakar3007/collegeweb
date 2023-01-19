@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVKE</title>
+    <link rel="icon" type="image/x-icon" href="https://bestdesignhub.com/wp-content/uploads/2020/08/hatchful.png">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script  src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+</head>
+
+<body class="box-border relative">
+    <div class="fixedbtn" onclick="topFunction()" id="myBtn" title="Go to top">
+      top
+    </div>
+    <div class="leftLogin  flex flex-col fixed top-[30%] left-0 ">
+        <!-- <span class="text-white text-5xl bg-slate-600 py-"><i class="fa fa-caret-right"></i></span> -->
+        <!-- <i class="fa fa-caret-right text-white"></i> -->
+        <button class="text-white py-6 px-6 bg-slate-900">Admission<br>Open</button>
+        <button class="text-white py-6 px-6 bg-amber-400">50%<br>OFF</button>
+        <button class="text-white py-6 px-6 bg-slate-500">Admission<br>Open</button>
+    </div>
+    <!-- add only link of social media  -->
+    <div class="nav1 w-full bg-[#06061e]  text-xs">
+        <div class="in1-nav flex items-center justify-between px-4 py-2">
+            <div class="left">
+                <div class="in-left flex items-center space-x-3 text-white">
+                    <div class="address"><i class="fa fa-address-book text-amber-500 mr-2"></i><span>Lucknow-226201 India </span></div>
+                    <div class="address"><i class="fa fa-address-book text-amber-500 mr-2"></i><span>University</span></div>
+                    <div class="email"><i class="fa fa-envelope text-amber-500 mr-2"></i><span>xyz123@gmail.com</span></div>
+                    <div class="phone"><i class="fa fa-phone text-amber-500 mr-2"></i><span>+91 6785456453424</span></div>
+                </div>
+            </div>
+            <div class="right space-x-4 float-right text-white text-sm ">
+                <i class="fa cursor-pointer fa-facebook-official"></i>
+                <i class="fa cursor-pointer fa-instagram"></i>
+                <i class="fa cursor-pointer fa-linkedin"></i>
+                <i class="fa cursor-pointer fa-whatsapp"></i>
+                <i class="fa cursor-pointer fa-twitter"></i>
+            </div>
+        </div>
+    </div>
+    <div class="nav2 w-full h-20 bg-white text-lg relative">
+        <div class="in-nav2 flex h-full flex-row justify-between px-7 items-center">
+            <div class="logo flex items-center space-x-3">
+                <div class="imgtt w-12 h-12 bg-[#0d0d45] rounded-full flex items-center justify-center">
+                  <img class="h-[60%] w-[60%] rounded-full" src="https://tfcr2012.files.wordpress.com/2012/05/tfcr3.png" alt="">
+                </div>
+                <div class="name flex flex-col ">
+                    <span class="text-3xl font-sans tracking-wider font-bold ">SKVE</span>
+                    <span class="text-sm font-bold text-[#6e6e6e]">University</span>
+                </div>
+            </div>
+            <div class="iconmenu relative">
+              <div class="humberger text-amber-500 text-lg  lg:hidden cursor-pointer" id="humberger">
+                <i class="fa fa-bars"></i>
+              </div>
+             <div class="cancel text-amber-500 text-lg lg:hidden right-5 top-0 hidden cursor-pointer" id="cancel">
+                <i class="fa fa-close"></i>
+             </div>
+            </div>
+            <div class="menuNavbar">
+                <ul class="flex flex-row items-center text-sm font-semibold">
+                    <div class="relative">
+                        <a id="hover" href="/my-project/index.html" class="cursor-pointer py-3 px-4 text-[#525252] font-bold hover:text-white duration-[400] hover:bg-amber-500">HOME</a>
+                        <div id="hoverli" class="home  w-60  absolute top-12">
+                            <li class="p-3 hover:bg-slate-600 cursor-pointer text-white"><a href="">Blog1</a></li>
+                            <li class="p-3 hover:bg-slate-600 cursor-pointer text-white"><a href="">Blog1</a></li>
+                            <li class="p-3 hover:bg-slate-600 cursor-pointer text-white"><a href="">Blog1</a></li>
+                            <li class="p-3 hover:bg-slate-600 cursor-pointer text-white"><a href="">Blog1</a></li>
+                            <li class="p-3 hover:bg-slate-600 cursor-pointer text-white"><a href="">Blog1</a></li>
+                        </div>
+                    </div>
+                    <div class="hi relative">
+                        <a href="/my-project/Course/course.html" class="cursor-pointer py-3 text-[#525252] font-bold px-4 hover:text-white duration-200 ease-in-out hover:bg-amber-500">COURSE</a>
+                        <div id="hoverli" class="drop-down w-60  absolute top-12 border-t-2 border-black border-b-2">
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">B.Tech</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">B.Arch</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">MBA</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">Diploma</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">B.Pharma</a></li>
+                        </div>
+                    </div>
+                    <div class="hi relative">
+                        <a href="/my-project/teacher.html" class="cursor-pointer py-3 text-[#525252] font-bold px-4 hover:text-white duration-200 ease-in-out hover:bg-amber-500">TEACHERS</a>
+                        <div class="drop-down  w-60  absolute top-12 border-t-2 border-b-2 border-black">
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">ALEX ROSS(P.H.D)</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">SHREE RAI(M.TECH)</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">JATIN MISHRA(B.TECH)</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">SATYAM CHAUBEY(M.TECH)</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">HIMANSHU NISHAD(DIPLOMA)</a></li>
+                        </div>
+                    </div>
+                    <div class="hi relative">
+                        <a href="/my-project/Gallery/gallery.html" class="cursor-pointer py-3 px-4 text-[#525252] font-bold hover:text-white hover:bg-amber-500">GALLERY</a>
+                        <div class="drop-down w-60  absolute top-12 border-b-2 border-t-2 border-black">
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">Campus</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">Faculty Staff</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">Library</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">Laboratory</a></li>
+                            <li class="p-3 hover:bg-white hover:text-black cursor-pointer text-white"><a href="">Reception</a></li>
+                        </div>
+                    </div>
+                    <div class="hi relative" id="hoverlist">
+                        <a href="/my-project/Contect/contect.html" class="cursor-pointer py-3 text-[#525252] font-bold px-4 hover:text-white hover:bg-amber-500">CONTECT US</a>
+                    </div>
+                    <div class="hi relative">
+                        <a href="/my-project/Admission/admission.html" class="cursor-pointer py-3 px-4 text-[#525252] font-bold hover:text-white hover:bg-amber-500">ADMISSIONS</a>
+                    </div>
+                    <div class="hi relative">
+                        <a href="/my-project/About/about.html" class="cursor-pointer py-3 px-4 text-[#525252] font-bold hover:text-white hover:bg-amber-500">ABOUT US</a>
+                    </div>
+                    <a href="Login/login.html" class="bg-[#0d0d45] px-8 py-3 loginLink text-white"><i
+                            class="fa fa-unlock-alt text-white mr-1 "></i>Login
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div id="list" class="menu2Navbar hidden z-50">
+            <ul class="flex flex-row items-center text-sm font-semibold">
+                <div class="relative">
+                    <a id="hover" href="index.html" class="cursor-pointer py-3 px-4 text-[#525252] font-bold hover:text-white duration-[400] hover:bg-amber-500">HOME</a>
+                </div>
+                <div class="hi relative">
+                    <a href="/my-project/Course/course.html" class="cursor-pointer py-3 text-[#525252] font-bold px-4 hover:text-white duration-200 ease-in-out hover:bg-amber-500">COURSE</a>
+                </div>
+                <div class="hi relative">
+                    <a href="/my-project/teacher.html" class="cursor-pointer py-3 text-[#525252] font-bold px-4 hover:text-white duration-200 ease-in-out hover:bg-amber-500">TEACHERS</a>
+                </div>
+                <div class="hi relative">
+                    <a href="/my-project/Gallery/gallery.html" class="cursor-pointer py-3 px-4 text-[#525252] font-bold hover:text-white hover:bg-amber-500">GALLERY</a>
+                </div>
+                <div class="hi relative" id="hoverlist">
+                    <a href="/About/Contect/contect.html" class="cursor-pointer py-3 text-[#525252] font-bold px-4 hover:text-white hover:bg-amber-500">CONTECT US</a>
+                </div>
+                <div class="hi relative">
+                    <a href="/my-project/Admission/admission.html" class="cursor-pointer py-3 px-4 text-[#525252] font-bold hover:text-white hover:bg-amber-500">ADMISSIONS</a>
+                </div>
+                <div class="hi relative">
+                    <a href="/About/about.html" class="cursor-pointer py-3 px-4 text-[#525252] font-bold hover:text-white hover:bg-amber-500">ABOUT US</a>
+                </div>
+                <a href="Login/login.html" class="bg-[#0d0d45] px-8 py-3 loginLink text-white"><i
+                        class="fa fa-unlock-alt text-white mr-1 "></i>Login</a>
+            </ul>
+        </div>
+    </div>
+    <div class="header flex items-center">
+        <div class="image w-full h-screen bg-cover bg-center bg-no-repeat " style="background-image:url('https://images.unsplash.com/photo-1661961112835-ca6f5811d2af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80');">
+            <div class="content-image h-screen  text-white flex justify-center items-center ">
+                <div class="content w-11/12 mx-auto px-2">
+                    <div class="in-content w-full text-center space-y-3">
+                        <h1 class="text-2xl font-bold lg:text-5xl">We Ensure better education<br>
+                            for a better world</h1>
+                        <p>In the history of modern astronomy, there is probably no one greater leap forward
+                            than the building<br> and launch of the space telescope known as the Hubble.</p>
+                        <div class="btn pt-3">
+                            <button class=" bg-[#060624] py-3 px-8 rounded-sm hover:bg-transparent hover:outline ">Get
+                                Started
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image w-full hidden h-screen bg-cover bg-center bg-no-repeat " style="background-image:url('https://images.unsplash.com/photo-1661956601031-4cf09efadfce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80');">
+            <div class="content-image h-screen  text-white flex justify-center items-center ">
+                <div class="content w-11/12 mx-auto px-2">
+                    <div class="in-content w-full text-center space-y-3">
+                        <h1 class="text-2xl font-bold lg:text-5xl">We Are Giving better education<br>
+                            for a better world</h1>
+                        <p>In the history of modern astronomy, there is probably no one greater leap forward
+                            than the building<br> and launch of the space telescope known as the Hubble.</p>
+                        <div class="btn pt-3">
+                            <button
+                                class=" bg-[#070725] py-3 px-8 rounded-sm hover:bg-transparent hover:outline ">Get
+                                Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image w-full hidden h-screen bg-cover bg-center bg-no-repeat " style="background-image:url('https://images.unsplash.com/photo-1661956602944-249bcd04b63f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');">
+            <div class="content-image h-screen  text-white flex justify-center items-center ">
+                <div class="content w-11/12 mx-auto px-2">
+                    <div class="in-content w-full text-center space-y-3">
+                        <h1 class="text-2xl  font-bold lg:text-5xl">We Ensure better education<br>
+                            for a better world</h1>
+                        <p >In the history of modern astronomy, there is probably no one greater leap forward
+                            than the building<br> and launch of the space telescope known as the Hubble.</p>
+                        <div class="btn pt-3">
+                            <button
+                                class=" bg-[#070725] py-3 px-8 rounded-sm hover:bg-transparent hover:outline ">Get
+                                Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="welcome w-full h-full bg-white my-16 lg:w-10/12 mx-auto relative ">
+        <div class="in-welcome px-4 py-5 lg:px-4 lg:pb-10">
+            <div class="w-content space-y-4 pb-5 ">
+                <h1 class="text-2xl font-semibold text-slate-600 lg:text-3xl"> Welcome to <span
+                        class="text-amber-500 ">SKVE Academy</span></h1>
+                <p class="text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe repellendus
+                    cupiditate reprehenderit
+                    tenetur tempora eligendi, ullam animi, quis, .</p>
+            </div>
+            <div class="w-2-content w-full lg:flex lg:items-center  lg:space-x-10 lg:pt-6 ">
+                <div class="logo-content inline-block space-y-7">
+                    <div class="w-course flex items-start  space-x-5">
+                        <i class="fa fa-mortar-board text-5xl py-5 px-3 border rounded-full"></i>
+                        <div class="w-body inline-block">
+                            <h1 class="text-lg font-semibold text-amber-500">Online Courses</h1>
+                            <p class="leading-5 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eaque aspernatur distinctio voluptas illum ?</p>
+                        </div>
+                    </div>
+                    <div class="w-teacher flex items-start space-x-5">
+                        <i class="fa fa-group text-5xl py-5 px-5 border rounded-full"></i>
+                        <div class="w-body inline-block">
+                            <h1 class="text-lg font-semibold text-amber-500">Certified Techers</h1>
+                            <p class="leading-5 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eaque aspernatur distinctio voluptas illum quis quia delectus nam minima ipsam ipsa?</p>
+                        </div>
+                    </div>
+                    <div class="w-comunity flex items-start  space-x-5">
+                        <i class="fa fa-comment text-5xl py-5 px-5 border rounded-full"></i>
+                        <div class="w-body">
+                            <h1 class="text-lg font-semibold text-amber-500">Comunity</h1>
+                            <p class="leading-5 text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Eaque aspernatur distinctio voluptas illum quis quia delectus nam minima ipsam ipsa?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="img-content w-full md:relative ">
+                    <div class="img1  left-20 sm:relative sm:w-8/12 lg:w-full xl:w-10/12 2xl:w-9/12">
+                        <img class="full lg:w-full" src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                    </div>
+                    <div
+                        class="img2  sm:-bottom-8 sm:absolute right-20 sm:w-7/12 lg:right-7 lg:w-full lg:-bottom-16 xl:w-9/12 xl:left-0 2xl:w-8/12">
+                        <img class="w-full lg:w-full" src="https://images.unsplash.com/photo-1599687351724-dfa3c4ff81b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our-course w-[95%] mx-auto md:w-3/4 ">
+        <div class="in-our-course  pb-8 lg:pb-24 lg:pt-14  ">
+            <div class="c-heading text-center flex items-center justify-center flex-col space-y-2 pb-8 font-semibold text-2xl lg:text-4xl text-black">
+                <span class="text-3xl font-bold text-[#5e5e5e]">OUR COURSES</span>
+               
+                <div class="border w-16 h-1 bg-[#06061e]"></div>
+                <P class="text-sm font-normal text-[#797979] ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio quidem</P>
+            </div>
+            <div class="course-body flex  relative items-center space-y-5 md:space-x-7 flex-col md:flex-row md:space-y-0">
+                <div class="course-box  flex-1 flex flex-col justify-between pb-5 h-[430px] shadow-lg  space-y-5 bg-[#06061e] ">
+                    <img class="w-full h-[50%] object-cover"
+                        src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt="">
+                    <div class="box-body px-3 xl:px-8">
+                        <h1 class="text-2xl font-semibold text-[#9f9f9f] text-center pb-2 lg:text-3xl">MBA</h1>
+                        <p class="text-center text-gray-400"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Modi molestias beatae quibusdam?</p>
+                    </div>
+                    <div class="flex justify-between px-3">
+                        <div class="star"><i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                        </div>
+                        <button class="bg-amber-500 text-sm py-2 px-5 hover:bg-white hover:text-black hover:font-semibold">Learn Now</button>
+                    </div>
+                </div>
+                <div class="course-box flex-1 pb-5 flex flex-col justify-between h-[430px] shadow-md space-y-5 bg-[#06061e]">
+                    <img class="w-full h-[50%] object-cover"
+                        src="https://plus.unsplash.com/premium_photo-1663126307897-25947999f9cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                        alt="">
+                    <div class="box-body px-3 xl:px-8">
+                        <h1 class="text-2xl font-semibold text-center pb-2 text-[#9f9f9f] lg:text-3xl">M.Tech</h1>
+                        <p class="text-center text-gray-400"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Modi molestias beatae quibusdam?</p>
+                    </div>
+                    <div class="flex justify-between px-3">
+                        <div class="star">
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                        </div>
+                        <button class="bg-amber-500 text-sm py-2 px-5 hover:bg-white hover:text-black hover:font-semibold">Learn Now</button>
+                    </div>
+                </div>
+                <div class="course-box  flex-1 flex flex-col justify-between pb-5 h-[430px] shadow-md space-y-5 bg-[#06061e]">
+                    <!-- <div class="img"> -->
+                        <img class="w-full h-[50%] object-cover" src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                    <!-- </div> -->
+                    <div class="box-body px-3 xl:px-8">
+                        <h1 class="text-2xl font-semibold text-center pb-2 text-[#9f9f9f] lg:text-3xl">B.Tech</h1>
+                        <p class="text-center text-gray-400"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Modi molestias beatae quibusdam?</p>
+                    </div>
+                    <div class="flex justify-between px-3">
+                        <div class="star">
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                        </div>
+                        <button class="bg-amber-500 hover:bg-white hover:text-black hover:font-semibold text-sm py-2 px-5">Learn Now</button>
+                    </div>
+                </div>
+                <!-- <div class="course-box mx-4 pb-5 h-[430px] flex flex-col justify-between shadow-md space-y-5 bg-[#06061e] flex-1 ">
+                    <img class="w-full h-[50%] object-cover"
+                        src="/my-project/pawel-czerwinski-sXHD_JEjJMA-unsplash.jpg"
+                        alt="">
+                    <div class="box-body px-3">
+                        <h1 class="text-2xl font-semibold text-center pb-2 text-[#9f9f9f] lg:text-3xl">B.Pharma</h1>
+                        <p class="text-center text-gray-400"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Modi molestias beatae quibusdam?</p>
+                    </div>
+                    <div class="flex justify-between px-3">
+                        <div class="star">
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                        </div>
+                        <button class="bg-amber-500 hover:bg-white hover:text-black hover:font-semibold text-sm py-2 px-5">Learn Now</button>
+                    </div>
+                </div>
+                <div class="course-box mx-4 pb-5 h-[430px] flex flex-col justify-between shadow-md space-y-5 bg-[#06061e] flex-1 ">
+                    <img class="w-full h-[50%] object-cover"
+                        src="/my-project/wallpaperflare.com_wallpaper (4).jpg"
+                        alt="">
+                    <div class="box-body px-3">
+                        <h1 class="text-2xl font-semibold text-center pb-2 text-[#9f9f9f] lg:text-3xl">B.Pharma</h1>
+                        <p class="text-center text-gray-400"> Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Modi molestias beatae quibusdam?</p>
+                    </div>
+                    <div class="flex justify-between px-3">
+                        <div class="star">
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                            <i class="fa fa-star-half-full"></i>
+                        </div>
+                        <button class="bg-amber-500 hover:bg-white hover:text-black hover:font-semibold text-sm py-2 px-5">Learn Now</button>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="counter-up w-full">
+        <div class="content  items-center flex flex-col md:flex-row justify-between w-full h-full ">
+            <div class="box">
+                <div class="icon"><img class="h-[70px] w-[70px] rounded-full" src="https://as2.ftcdn.net/v2/jpg/02/19/98/93/1000_F_219989372_K1pBzmbiGfoMd6X5JJd5SYOVIBzSUN8f.jpg" alt=""></div>
+                <div class="counter">3000</div>
+                <div class="text">Students</div>
+            </div>
+            <div class="box">
+                <div class="icon"><img class="w-[70px] h-[70px] rounded-full" src="https://static.vecteezy.com/system/resources/previews/005/176/296/original/simple-education-logo-design-template-book-icon-emblem-for-courses-classes-and-schools-illustration-online-education-business-company-library-book-store-university-and-learning-concept-free-vector.jpg" alt=""></div>
+                <div class="counter">44</div>
+                <div class="text ">Courses</div>
+            </div>
+            <div class="box">
+                <div class="icon"><img class="w-[70px] h-[70px] rounded-full" src="https://t4.ftcdn.net/jpg/02/58/06/95/360_F_258069568_dXEQ4H8Is4TmagdvNGPW0W1H7m8Q902c.jpg" alt=""></div>
+                <div class="counter">200</div>
+                <div class="text">Teachers</div>
+            </div>
+            <div class="box">
+                <div class="icon"><img class="w-[70px] h-[70px] rounded-full" src="https://c8.alamy.com/comp/PXPBDW/building-logo-design-real-estate-company-logo-design-abstract-construction-logo-design-building-logo-design-PXPBDW.jpg" alt=""></div>
+                <div class="counter">120</div>
+                <div class="text">Companies</div>
+            </div>
+        </div>
+        </div>
+    <div class="gallerycontent h-52 gap-2 bg-slate-100 flex items-center justify-center flex-col">
+        <span class="text-3xl font-bold text-[#5e5e5e]">OUR GALLERY</span>
+        <div class="border w-16 h-1 bg-slate-600"></div>
+        <p class="text-center text-[#797979]">Student gallery of the year past graduated passouts</p>
+    </div>
+    <div class="gallery-main flex flex-col md:grid md:grid-cols-3 mb-10 w-full xl:grid-cols-4">
+        <div class="gallery-box flex-1 h-[300px] w-full relative overflow-hidden">
+            <div class="galleryImg w-full h-full ">
+                <img class="w-full h-full object-cover" src="http://kodeforest.net/html/uoe/extra-images/home-gallery7.jpg" alt="">
+                <div class="con ">
+                    <div class="contentin flex items-center justify-center gap-3 h-full flex-col">
+                        <div class="icon flex items-center gap-3">
+                            <div id="icon" class="icon1 h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                                <i id="fa" class="fa fa-eye"></i>
+                            </div>
+                            <div id="icon"
+                                class="icon h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                                <i id="fa" class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <span class="text-2xl font-semibold">OUR LIBRARY</span>
+                        <span>3000+ Books
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="gallery-box flex-1 h-[300px] w-full relative overflow-hidden">
+            <div class="galleryImg w-full h-full">
+                <img class="w-full h-full object-cover"
+                    src="http://kodeforest.net/html/uoe/extra-images/home-gallery3.jpg" alt="">
+                <div class="con">
+                    <div class="contentin flex items-center justify-center gap-3 h-full flex-col">
+                        <div class="icon flex items-center gap-3">
+                            <div id="icon"
+                                class="icon1 h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                                <i id="fa" class="fa fa-eye"></i>
+                            </div>
+                            <div id="icon"
+                                class="icon h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                                <i id="fa" class="fa fa-link"></i>
+                            </div>
+                        </div>
+                        <span class="text-2xl font-semibold">OUR CLASSROOM</span>
+                        <span>Advance Seating Plan</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-box flex-1 h-[300px] w-full relative overflow-hidden">
+            <div class="galleryImg w-full h-full">
+                <img class="w-full h-full object-cover"
+                    src="http://kodeforest.net/html/uoe/extra-images/home-gallery2.jpg" alt="">
+            <div class="con">
+                <div class="contentin flex items-center justify-center gap-3 h-full flex-col">
+                    <div class="icon flex items-center gap-3">
+                        <div id="icon"
+                            class="icon1 h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-eye"></i>
+                        </div>
+                        <div id="icon"
+                            class="icon h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-link"></i>
+                        </div>
+                    </div>
+                    <span class="text-2xl font-semibold">FUTURE STUDENTS</span>
+                    <span>Toppers in College</span>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-box flex-1 h-[300px] w-full relative overflow-hidden">
+            <div class="galleryImg w-full h-full">
+                <img class="w-full h-full object-cover"
+                    src="http://kodeforest.net/html/uoe/extra-images/home-gallery1.jpg" alt="">
+            <div class="con">
+                <div class="contentin flex items-center justify-center gap-3 h-full flex-col">
+                    <div class="icon flex items-center gap-3">
+                        <div id="icon"
+                            class="icon1 h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-eye"></i>
+                        </div>
+                        <div id="icon"
+                            class="icon h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-link"></i>
+                        </div>
+                    </div>
+                    <span class="text-2xl font-semibold">OUR CAMPUS</span>
+                    <span>Area of campus 800m</span>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-box flex-1 h-[300px] w-full relative overflow-hidden">
+            <div id="btn" class="galleryImg w-full h-full">
+                <img class="w-full h-full object-cover"
+                    src="http://kodeforest.net/html/uoe/extra-images/home-gallery4.jpg" alt="">
+            <div class="con">
+                <div class="contentin flex items-center justify-center gap-3 h-full flex-col">
+                    <div class="icon flex items-center gap-3">
+                        <div id="icon"
+                            class="icon1 h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-eye"></i>
+                        </div>
+                        <div id="icon"
+                            class="icon h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-link"></i>
+                        </div>
+                    </div>
+                    <span class="text-2xl font-semibold">FACULTY STAFF</span>
+                    <span>Content Write</span>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-box flex-1 h-[300px] w-full relative overflow-hidden">
+            <div class="galleryImg w-full h-full">
+                <img class="w-full h-full object-cover"
+                    src="http://kodeforest.net/html/uoe/extra-images/home-gallery6.jpg" alt="">
+            <div class="con">
+                <div class="contentin flex items-center justify-center gap-3 h-full flex-col">
+                    <div class="icon flex items-center gap-3">
+                        <div id="icon"
+                            class="icon1 h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-eye"></i>
+                        </div>
+                        <div id="icon"
+                            class="icon h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-link"></i>
+                        </div>
+                    </div>
+                    <span class="text-2xl font-semibold">OUR MESH</span>
+                    <span>Content Write</span>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="gallery-box flex-1 h-[300px] w-full relative overflow-hidden">
+            <div id="look" class="galleryImg w-full h-full">
+                <img class="w-full h-full object-cover"
+                    src="http://kodeforest.net/html/uoe/extra-images/home-gallery5.jpg" alt="">
+            <div class="con ">
+                <div id="cont" class="contentin flex items-center justify-center gap-3 h-full flex-col">
+                    <div class="icon flex items-center gap-3">
+                        <div id="icon"
+                            class="icon1 h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-eye"></i>
+                        </div>
+                        <div id="icon"
+                            class="icon h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-link"></i>
+                        </div>
+                    </div>
+                    <span class="text-2xl font-semibold">OUR TRANSPORT</span>
+                    <span>Content Write</span>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-box flex-1 h-[300px] w-full relative overflow-hidden">
+            <div class="galleryImg w-full h-full">
+                <img class="w-full h-full object-cover"
+                    src="http://kodeforest.net/html/uoe/extra-images/home-gallery7.jpg" alt="">
+            <div class="con">
+                <div class="contentin flex items-center justify-center gap-3 h-full flex-col">
+                    <div class="icon flex items-center gap-3">
+                        <div id="icon"
+                            class="icon1 h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-eye"></i>
+                        </div>
+                        <div id="icon"
+                            class="icon h-12 flex items-center justify-center w-12 cursor-pointer rounded-full bg-white hover:bg-black hover:text-white">
+                            <i id="fa" class="fa fa-link"></i>
+                        </div>
+                    </div>
+                    <span class="text-2xl font-semibold ">OUR MANGEMENT</span>
+                    <span class="">Content Write</span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="teacher  text-white ">
+        <div class="in-teacher py-10 px-4 space-y-6 pb-10 lg:space-y-16 lg:w-9/12 lg:mx-auto ">
+            <div class="t-content text-center flex flex-col justify-center items-center gap-2 text-2xl pb-5 text-white font-semibold">
+                <h1 class="text-3xl font-bold text-[#5e5e5e] ">CERTIFIED TEACHERS</h1>
+                <div class="border w-16 h-1 bg-slate-600"></div>
+                <p class="text-center text-sm text-[#797979]">Student gallery of the year past graduated passouts</p>
+            </div>
+            <div class="t-box-content flex flex-col space-y-5 md:flex-row md:space-x-6 md:space-y-0 ">
+                <div id="t-box" class="t-box  flex-1 rounded-md overflow-hidden space-y-7 shadow-lg bg-white text-black">
+                    <div class="t-img relative">
+                        <img class="full" src="https://images.unsplash.com/photo-1551989745-347c28b620e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                        <div id="t-icon" class="t-icon bg-zinc-800 opacity-75  py-6 text-white duration-1000 px-3 text-2xl absolute   w-full ">
+                            <div class="in-t-icon justify-self-end flex h-full justify-evenly items-end py-2">
+                                <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-facebook"></i>
+                                </div> 
+                                <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                            <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-instagram"></i>
+                                </div>
+                                <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="t-box-content text-center space-y-2 pb-14">
+                        <h1 class="text-2xl font-semibold">Alexa MacCalum</h1>
+                        <p class="font-medium text-lg text-[#6e6e6e]">Physics Teacher</p>
+                    </div>
+                </div>
+                <div id="t-box" class="t-box  flex-1 space-y-7 overflow-hidden rounded-md shadow-lg bg-white text-black">
+                    <div class="t-img relative">
+                        <img class="full" src="https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="">
+                        <div id="t-icon" class="t-icon opacity-75 py-6 bg-zinc-800 text-white duration-1000 px-3 text-2xl absolute  w-full">
+                            <div class="in-t-icon justify-self-end flex h-full justify-evenly items-end py-2">
+                                <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-facebook"></i>
+                                </div> 
+                                <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                            <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-instagram"></i>
+                                </div>
+                                <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="t-box-content text-center space-y-2 pb-14">
+                        <h1 class="text-2xl font-semibold">Alexa MacCalum</h1>
+                        <p class="font-medium text-lg text-[#6e6e6e]">Physics Teacher</p>
+                    </div>
+                </div>
+                <div id="t-box" class="t-box  flex-1 space-y-7 shadow-lg bg-white rounded-md overflow-hidden text-black">
+                    <div class="t-img relative">
+                        <img class="full" src="https://images.unsplash.com/photo-1557862921-37829c790f19?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80" alt="">
+                        <div id="t-icon" class="t-icon bg-zinc-800 opacity-75 py-6 text-white duration-1000 px-3 text-2xl absolute  w-full ">
+                            <div class="in-t-icon justify-self-end flex h-full justify-evenly items-end py-2">
+                                <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-facebook"></i>
+                                </div> 
+                                <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-linkedin"></i>
+                            </div>
+                            <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-instagram"></i>
+                                </div>
+                                <div class="f-icon w-14 h-14 bg-slate-300 rounded-full items-center justify-center flex">
+                                <i class="fa fa-twitter"></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="t-box-content text-center space-y-2 pb-14">
+                        <h1 class="text-2xl font-semibold">Alexa MacCalum</h1>
+                        <p class="font-medium text-lg text-[#6e6e6e]">Physics Teacher</p>
+                    </div>
+                </div>
+            </div>
+            <div class="t-btn w-full block text-center">
+                <button class="hover:bg-amber-500 px-2 py-2 lg:px-3 lg:py-3 duration-200 ease-out bg-slate-900 text-white">View All Teachers</button>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="bg-Image"></div> -->
+    <div class="request h-full w-full bg-cover bg-center bg-no-repeat  md:h-4/5" style="background-image:url('https://images.unsplash.com/photo-1631203928493-a4e4eb2b8da1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');">
+        <div class="in-request py-16 px-5 text-white inline-block h-full bg-zinc-900 opacity-75 w-full md:flex md:items-center md:justify-end ">
+            <div class="r-container md:max-w-md md:shadow-slate-700 md:mr-32 md:py-20  md:shadow-md shadow-amber-600 md:px-3">
+                <div class="r-content space-y-3 pb-5 ">
+                    <h1 class="text-4xl font-bold">Request A Quite</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Earum doloribus, neque suscipit quo quae officia.</p>
+                </div>
+                <form action="" class="py-3 w-full ">
+                    <div class="r-form space-y-6">
+                        <div class="r-name inline-block space-y-6 w-full md:flex md:space-y-0 items-center md:space-x-5">
+                            <div class="r2-name">
+                                <input type="text" class=" bg-transparent border-b-2 outline-none w-full border-gray-600 px-1 py-3 font-semibold" placeholder="First Name">
+                            </div>
+                            <div class="r-email">
+                                <input type="text" class=" bg-transparent border-b-2 outline-none w-full px-1 py-3 font-semibold border-gray-600" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="r-phone w-full space-y-6 md:flex md:space-y-0 md:space-x-5 justify-between">
+                            <div class="r-select flex items-center justify-between w-full">
+                                <div class="r-select-value w-full ">
+                                    <select name="" id="" class="w-full bg-black outline-none border-b-2 border-gray-600 py-3">
+                                        <option value="">Select Course</option>
+                                        <option value="">Art Fashion</option>
+                                        <option value="">Art Fashion</option>
+                                        <option value="">Art Fashion</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <input type="text" class=" bg-transparent border-b-2 outline-none w-full 
+                        px-1 py-3 font-semibold border-gray-600" placeholder="First Name">
+                        </div>
+                        <div class="r-btn-p" class=" w-full space-y-6 md:flex md:space-y-0 md:w-auto">
+                            <textarea name="" id="" cols="10" rows="1 " class="w-full bg-transparent border-b-2 
+                         outline-none border-gray-600 py-3" placeholder="Message Post Here"></textarea>
+                            <div class="r-btn w-full text-center py-3 mt-4 rounded-3xl bg-amber-500">
+                                <button class="w-full">Request A Quote</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer bg-gray-800 text-white w-full">
+        <div class="in-footer py-10 px-4 w-full">
+            <div class="footer-container w-full inline-block  space-y-7 lg:flex lg:space-y-0  lg:justify-evenly lg:w-full">
+                <div class="f-box space-y-6 inline-block ">
+                    <span class="text-lg font-bold">Top Product</span>
+                    <div class="f-list list-none space-y-2 ">
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Manage Product</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Manage Repulation</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Power Tools</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Marketing Services</a></li>
+                    </div>
+                </div>
+                <div class="f-box space-y-6">
+                    <span class="text-lg font-bold">Quick Link</span>
+                    <div class="f-list list-none space-y-2">
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Jobs</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Brand Assest</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Investor Relations</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Terms of Service</a></li>
+                    </div>
+                </div>
+                <div class="f-box space-y-6">
+                    <span class="text-lg font-bold">Features</span>
+                    <div class="f-list list-none space-y-2">
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Jobs</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Brand Assest</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Investor Relations</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Terms of Service</a></li>
+                    </div>
+                </div>
+                <div class="f-box space-y-6 ">
+                    <span class="text-lg font-bold">Resources</span>
+                    <div class="f-list list-none space-y-2">
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Guide</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Experts</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Research</a></li>
+                        <li><a href=""><i class="fa fa-caret-right mr-1"></i>Agencies</a></li>
+                    </div>
+                </div>
+                <div class="f-news space-y-3">
+                    <span class="text-lg font-bold">Newssltter</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div class="news-email relative w-full flex items-center sm:w-">
+                        <input type="text" class="px-2 py-2 outline-none text-white bg-slate-500 w-full"
+                            placeholder="Send Mail">
+                        <button class="absolute right-0 bg-amber-500 py-2 px-4">Suscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="f-copy py-6 space-y-5 lg:w-full lg:flex lg:items-center lg:justify-evenly lg:mt-20 lg:py-0 ">
+                <div class="f-para">
+                    <p>Copyright ©2022 All rights reserved | This template is made with by Abubakar Azmi</p>
+                </div>
+                <div class="ft-icon flex items-center space-x-12 text-2xl text-amber-500">
+                    <a href=""><i class="cursor-pointer fa fa-facebook"></i></a>
+                    <a href=""><i class="cursor-pointer fa fa-linkedin"></i></a>
+                    <a href=""><i class="cursor-pointer fa fa-instagram"></i></a>
+                    <a href=""><i class="cursor-pointer fa fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
